@@ -1,4 +1,3 @@
-// backend/test-conn.js
 require('dotenv').config();
 const { MongoClient } = require('mongodb');
 

@@ -1,13 +1,6 @@
 import React from 'react';
 import { Box, Container, Paper, Typography, useTheme } from '@mui/material';
 
-/**
- * AuthLayout
- * Props:
- * - title (string): heading text (e.g. "Sign In")
- * - subtitle (string): optional small subtitle
- * - children: the form content
- */
 export default function AuthLayout({ title, subtitle, children }) {
   const theme = useTheme();
 
@@ -15,7 +8,6 @@ export default function AuthLayout({ title, subtitle, children }) {
     <Box sx={{ minHeight: '100vh', display: 'flex' }}>
       <Container maxWidth="lg" sx={{ my: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <Paper elevation={6} sx={{ width: '100%', maxWidth: 1100, minHeight: 520, borderRadius: 2, overflow: 'hidden', display: 'flex', minHeight: 480 }}>
-          {/* Left: form area */}
           <Box sx={{
             flex: 1,
             p: { xs: 4, sm: 7 },
@@ -42,7 +34,6 @@ export default function AuthLayout({ title, subtitle, children }) {
             </Box>
           </Box>
 
-          {/* Right: decorative panel (hidden on xs) */}
           <Box sx={{
             width: { xs: 0, md: 380 },
             display: { xs: 'none', md: 'flex' },
@@ -59,7 +50,6 @@ export default function AuthLayout({ title, subtitle, children }) {
               Manage your tasks quickly and efficiently. Create, edit, and (if you're an admin) delete tasks.
             </Typography>
 
-            {/* decorative subtle card */}
             <Box sx={{
               mt: 2,
               bgcolor: 'rgba(255,255,255,0.12)',
