@@ -32,3 +32,8 @@ npm install
 # create frontend/.env:
 # VITE_API_URL=http://localhost:5000/api
 npm run dev
+
+
+### Admin
+admin@local.test
+AdminPass123
