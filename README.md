@@ -1,6 +1,6 @@
 # MERN Task Manager — Frontend-focused Task Management App
 
-**Live demo:** https://mern-task-app-ruby.vercel.app/signin   
+**Live demo:** https://mern-task-app-ruby.vercel.app/signin 
 **Backend API:** https://mern-task-app-m5vd.onrender.com/api
 
 ---
